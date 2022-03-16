@@ -1,0 +1,14 @@
+body{
+    background: rgba(64, 64, 122,1.0);
+}
+
+.list-group, .list-group-item {
+    background: rgba(45, 48, 98, 1) !important;
+    color: white;
+}
+
+.form-control, .form-control:focus{
+    background: rgba(48, 51, 107, 1) !important;
+    color: white !important;
+    border: none;
+}

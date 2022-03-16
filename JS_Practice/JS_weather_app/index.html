@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Weather App</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div class="container my-5 mx-auto">
+
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+          <h1 class="text-light text-center my-4">JS Weather App</h1>
+  
+          <form class="change-location my-4 text-center text-light" method="post" action="" >
+            <label for="city" >Enter a city name of BD for weather info</label>
+            <input type="text" name="city" class="form-control p-4" placeholder="Type and Press Enter">
+          </form>
+          
+          <p class="text-warning load-status text-center"></p>
+          
+          <div class="card shadow-lg rounded weather-card d-none">
+
+          </div>
+
+        </div>
+      </div>
+      
+    </div> 
+
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
